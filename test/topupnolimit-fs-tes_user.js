@@ -15,7 +15,7 @@
   // ================= PENGATURAN =================
   const CFG = {
     START_AT: '18:59:58',   // jam mulai (pakai jam HP, flash sale 19:00 WIB). Tanpa refresh halaman
-    TEST_DELAY_SEC: 5,      // >0 = abaikan START_AT, mulai N detik dari sekarang (untuk tes)
+    TEST_DELAY_SEC: 30,      // >0 = abaikan START_AT, mulai N detik dari sekarang (untuk tes)
     DRY_RUN: false,          // true = berhenti sebelum klik "Buy" (tidak bikin pesanan)
     PROMO: '',              // kode promo. Kosong = ditanya lewat popup saat halaman dibuka
     PROMO_REQUIRED: true,   // true = berhenti kalau kode promo belum ada. Untuk tes tanpa kode: false
