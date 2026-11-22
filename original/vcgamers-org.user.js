@@ -19,7 +19,7 @@
 
   const CFG = {
     PRODUCT: 'FF',             // produk awal 'FF' / 'WDP' (bisa diganti lewat menu: tap badge)
-    REFRESH_AT: '14:59:59.000', // jam refresh (jam HP/PC)
+    REFRESH_AT: '15:00:00.000', // jam refresh (jam HP/PC)
     TEST_DELAY_SEC: 0,          // >0 = mode tes: refresh N detik setelah halaman dibuka (abaikan REFRESH_AT)
     CARD_FALLBACK_ANY: false,   // true = kalau kartu promo tak ada, klik kartu mana saja (untuk tes)
     CARD_FIRST: false,            // true = cari kartu lewat kata kunci 'card' dulu, baru lewat judul kode promo
